@@ -20,16 +20,10 @@ void MergeSort::merge(int arr[], int l, int m, int r)
 
 	for (k = 0; k < (r - l + 1); ++k)
 	{
-		if(j > r || arr[i] < arr[j])
-		{
-			temp[k] = arr[i];
-			++i;
-		}
-		else if (i > m || arr[j] < arr[i])
-		{
-			temp[k] = arr[j];
-			++j;
-		}
+		if (j > r) temp[k] = arr[i++];
+		else if(i > m) temp[k] = arr[j++];
+		else if(arr[i] < arr[j]) temp[k] = arr[i++];
+		else temp[k] = arr[j++];
 	}
 
 	for (k = 0; k < (r - l + 1); ++k)
