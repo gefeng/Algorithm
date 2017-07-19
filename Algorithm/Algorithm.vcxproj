@@ -141,6 +141,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HeapSort.h" />
     <ClInclude Include="IntersectionOfTwoArrays1.h" />
     <ClInclude Include="IntersectionOfTwoArrays2.h" />
     <ClInclude Include="MergeSort.h" />
@@ -150,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="IntersectionOfTwoArrays1.cpp" />
     <ClCompile Include="IntersectionOfTwoArrays2.cpp" />
     <ClCompile Include="MergeSort.cpp" />
