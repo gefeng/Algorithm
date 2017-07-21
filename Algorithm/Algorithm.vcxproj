@@ -142,9 +142,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeapSort.h" />
+    <ClInclude Include="InsertInterval.h" />
     <ClInclude Include="IntersectionOfTwoArrays1.h" />
     <ClInclude Include="IntersectionOfTwoArrays2.h" />
+    <ClInclude Include="LargestNumber.h" />
+    <ClInclude Include="MergeInterval.h" />
     <ClInclude Include="MergeSort.h" />
+    <ClInclude Include="QuickSort.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ValidAnagram.h" />
@@ -152,9 +156,13 @@
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="HeapSort.cpp" />
+    <ClCompile Include="InsertInterval.cpp" />
     <ClCompile Include="IntersectionOfTwoArrays1.cpp" />
     <ClCompile Include="IntersectionOfTwoArrays2.cpp" />
+    <ClCompile Include="LargestNumber.cpp" />
+    <ClCompile Include="MergeInterval.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
